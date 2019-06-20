@@ -186,10 +186,6 @@ int main(int argc, char* argv[])
         if (i % 2 == 0)
         {
 
-    
-char *msg = "pair ";
-show_array(5,subArray,msg);
-
             if (rank % 2 == 0)
             {
                 
@@ -210,12 +206,6 @@ show_array(5,subArray,msg);
         }
         else
         {
-
-
-char *msg = "impair ";
-show_array(5,subArray,msg);
-
-
             if (rank % 2 != 0)
             {
                 if (rank < hostCount - 1)
